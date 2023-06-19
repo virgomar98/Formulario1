@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>PEDIDO</title>
+</head>
+<body>
+
+
+    <h1>ENVIOS DE PEDIDO</h1>
+
+    <form action="" method="post">
+        <p>
+            <label>Nome Completo:
+                <input type="text" required>
+            </label>
+        </p>
+       
+        <fieldset>
+            <legend>Escolha um prato</legend>
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="n064" checked>
+                    Caldo Verde 
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="n56" checked>
+                    Iscas de Peixe
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="074" checked>
+                    Macarrão a bolonhesa
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Acompanhamentos</legend>
+
+            <label>Batata frita
+                <input type="checkbox" name="side"
+                value="s045">
+            </label>
+
+            <label>Arroz
+                <input type="checkbox" name="side"
+                value="s046">
+            </label>
+
+            <label>Salada
+                <input type="checkbox" name="side"
+                value="s047">
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Bebidas</legend>
+            <p>
+                <label>
+                    <input type="radio" name="prato"
+                    value="d01" checked>
+                    Refrigerante
+                </label>
+
+                <label>
+                    <input type="radio" name="prato"
+                    value="d02" checked>
+                    Agua
+                </label>
+
+                <label>
+                    <input type="radio" name="prato"
+                    value="d03" checked>
+                    Café
+                </label>
+            </p>
+    
+        </fieldset>
+
+        
+        </label>
+
+        <p>
+
+            <label>Obervações
+                <textarea name="notes" id="" cols="30" rows="10"></textarea>
+            </label>
+
+        </p>
+
+        
+            <label>Formas de pagamento
+                <select name="Payment">
+                    <option value="cash">Dinheiro</option>
+                    <option value="cash">Débito</option>
+                    <option value="cash">Crédito</option>
+                </select>
+            </label>
+
+        <p>
+            <button type="reset">Recomeçar pedido</button>
+            <button type="submit">Enviar pedido</button>
+        </p>
+</body>
+</html>
